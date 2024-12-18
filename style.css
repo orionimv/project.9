@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
-/* Common Style */
+
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +32,6 @@ button:focus,
     outline: none;
     border: none;
 }
-/* Root*/
 :root {
     --pear-can: #e6ffde;
     --pear-logo: #03403f;
@@ -46,7 +45,6 @@ button:focus,
     --apple-background: #ffb2b2;
     --exotic-background: #c1bff2;
 }
-/* Typography */
 h1 {
     font-family: "Lexend";
     font-size: 449px !important;

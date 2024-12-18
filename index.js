@@ -1,5 +1,5 @@
 
-let h1Texts = ["Pear", "Apple", "Exotic"]; // Add your h1 texts here
+let h1Texts = ["Pear", "Apple", "Exotic"];
 let logoColors = [
     "var(--pear-logo)",
     "var(--apple-logo)",
@@ -73,7 +73,6 @@ prevButton.addEventListener("click", () => {
     gsap.from(".fruit-image ", { y: "100vh", delay: 0.5 });
     // Enable the nextButton if it was disabled
     nextButton.style.display = "block";
-    // Disable the prevButton if it's the first section
     if (currentIndex === 0) {
         prevButton.style.display = "none";
     }
